@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="E-commerce mobile app by 18574" company="Ciow" webLink="http://" view-date="2023-12-19" view-index="1" gantt-divider-location="351" resource-divider-location="300" version="3.2.3230" locale="en_US">
+    <description>
+        <![CDATA[Develop a mobile app for an e-commerce company to facilitate online shopping and provide a seamless user experience.							
+							]]>
+    </description>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Name" width="200" order="0"/>
+        <field id="tpd4" name="Begin date" width="75" order="1"/>
+        <field id="tpd5" name="End date" width="75" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="209" order="0"/>
+        <field id="1" name="Default role" width="84" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Project Initiation" meeting="false" start="2024-10-28" duration="7" complete="0" expand="true">
+            <depend id="4" type="2" difference="0" hardness="Strong"/>
+            <depend id="9" type="2" difference="0" hardness="Strong"/>
+            <task id="1" name="Define project scope and objectives" color="#8cb6ce" meeting="false" start="2024-10-28" duration="3" complete="0" thirdDate="2023-11-02" thirdDate-constraint="0" expand="true">
+                <depend id="2" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="2" name="Create a project plan" color="#8cb6ce" meeting="false" start="2024-10-31" duration="2" complete="0" thirdDate="2023-11-02" thirdDate-constraint="0" expand="true">
+                <depend id="3" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="3" name="Set up project team" color="#8cb6ce" meeting="false" start="2024-11-04" duration="2" complete="0" thirdDate="2023-11-02" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="4" name="UX Design" color="#8cb6ce" meeting="false" start="2024-11-08" duration="8" complete="0" thirdDate="2023-11-02" thirdDate-constraint="0" expand="true">
+            <depend id="9" type="2" difference="0" hardness="Rubber"/>
+            <task id="6" name="User research" color="#8cb6ce" meeting="false" start="2024-11-08" duration="3" complete="0" thirdDate="2023-11-02" thirdDate-constraint="0" expand="true">
+                <depend id="7" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="7" name="Wireframe creation" color="#8cb6ce" meeting="false" start="2024-11-13" duration="2" complete="0" thirdDate="2023-11-06" thirdDate-constraint="0" expand="true">
+                <depend id="8" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="8" name="Prototype development" color="#8cb6ce" meeting="false" start="2024-11-15" duration="3" complete="0" thirdDate="2023-11-06" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="9" name="Graphic Design" color="#000000" meeting="false" start="2024-11-20" duration="9" complete="0" thirdDate="2023-11-07" thirdDate-constraint="0" expand="true">
+            <depend id="12" type="2" difference="0" hardness="Strong"/>
+            <task id="10" name="Design app layout" color="#8cb6ce" meeting="false" start="2024-11-20" duration="5" complete="0" thirdDate="2023-11-02" thirdDate-constraint="0" expand="true">
+                <depend id="11" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="11" name="Create icons and visual assets" color="#8cb6ce" meeting="false" start="2024-11-27" duration="4" complete="0" thirdDate="2023-11-02" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="12" name="Development" color="#8cb6ce" meeting="false" start="2024-12-03" duration="24" complete="0" thirdDate="2023-11-02" thirdDate-constraint="0" expand="true">
+            <task id="13" name="Set up the server and database" color="#8cb6ce" meeting="false" start="2024-12-03" duration="5" complete="0" thirdDate="2023-11-02" thirdDate-constraint="0" expand="true">
+                <depend id="14" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="14" name="Develop API endpoints" color="#8cb6ce" meeting="false" start="2024-12-10" duration="9" complete="0" thirdDate="2023-11-14" thirdDate-constraint="0" expand="true"/>
+            <task id="15" name="React Native app development" color="#8cb6ce" meeting="false" start="2024-12-03" duration="14" complete="0" thirdDate="2023-11-23" thirdDate-constraint="0" expand="true">
+                <depend id="16" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="16" name="Unit testing" color="#8cb6ce" meeting="false" start="2024-12-23" duration="4" complete="0" thirdDate="2023-11-23" thirdDate-constraint="0" expand="true">
+                <depend id="17" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="17" name="Bug Fixing" color="#8cb6ce" meeting="false" start="2024-12-27" duration="4" complete="0" thirdDate="2023-11-23" thirdDate-constraint="0" expand="true">
+                <depend id="18" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="18" name="Deployment" color="#8cb6ce" meeting="false" start="2025-01-02" duration="2" complete="0" thirdDate="2023-11-23" thirdDate-constraint="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="Blake" function="1" contacts="blake.t@ciow.com" phone="497898503">
+            <rate name="standard" value="50"/>
+        </resource>
+        <resource id="1" name="George" function="2" contacts="george.l@ciow.com" phone="496556586">
+            <rate name="standard" value="60"/>
+        </resource>
+        <resource id="2" name="Brenda" function="3" contacts="brenda.l@ciow.com" phone="498620572">
+            <rate name="standard" value="60"/>
+        </resource>
+        <resource id="3" name="Clark" function="4" contacts="clark.j@ciow.com" phone="492036846">
+            <rate name="standard" value="50"/>
+        </resource>
+        <resource id="4" name="Pauline" function="5" contacts="pauline.k@ciow.com" phone="499608627">
+            <rate name="standard" value="55"/>
+        </resource>
+        <resource id="5" name="Francis" function="6" contacts="francis.s@ciow.com" phone="495337595">
+            <rate name="standard" value="70"/>
+        </resource>
+    </resources>
+    <allocations>
+        <allocation task-id="6" resource-id="0" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="7" resource-id="0" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="8" resource-id="0" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="13" resource-id="1" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="14" resource-id="1" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="15" resource-id="2" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="18" resource-id="2" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="10" resource-id="3" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="11" resource-id="3" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="16" resource-id="4" function="5" responsible="false" load="100.0"/>
+        <allocation task-id="17" resource-id="4" function="5" responsible="false" load="100.0"/>
+        <allocation task-id="3" resource-id="5" function="6" responsible="true" load="100.0"/>
+        <allocation task-id="1" resource-id="5" function="6" responsible="false" load="100.0"/>
+        <allocation task-id="2" resource-id="5" function="6" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+    <roles>
+        <role id="1" name="UX Designer"/>
+        <role id="2" name="Senior Backend Developer"/>
+        <role id="3" name="Senior Frontend Developer"/>
+        <role id="4" name="Graphic Designer"/>
+        <role id="5" name="Junior Developer"/>
+        <role id="6" name="Project Manager"/>
+    </roles>
+</project>
